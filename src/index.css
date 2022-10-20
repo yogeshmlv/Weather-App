@@ -1,0 +1,94 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app
+{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color:black;
+}
+.overlay
+{
+    width:100%;
+    height: 100vh;
+    background-color:rgba(211, 211, 211, 0.268);
+}
+.container
+{
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+ .section
+{
+    width: 100%;
+    padding:1rem;
+    border-radius: 0.4rem;
+    color:white;
+} 
+.section__inputs, .section__temprature
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(128, 128, 128, 0.923);
+    color: black;
+}
+.section__inputs>input
+{
+    border: 0.8px  solid black;
+    border-radius: 0.4rem;
+    padding:0.5rem;
+    font-size: 24px;
+    font-weight: 200;
+    
+}
+.section__inputs>input:focus
+{
+    outline: none;
+}
+.section__inputs>button
+{
+    padding:10px 15px;
+    border:none;
+    border-radius: 0.4rem;
+    font-size: 24px;
+    font-weight: 500;
+    background-color:whitesmoke;
+}
+.section__inputs>button:hover
+{
+cursor: pointer;
+background-color: lightgray;
+}
+.icon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon>h3
+{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.temperature>h1{
+    font-size: 60px;
+}
+.time{
+    border: 5px solid green;
+    
+}
