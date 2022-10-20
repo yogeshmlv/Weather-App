@@ -13,7 +13,7 @@ const update=()=>{
 setInterval(update,1000);
   const [weather,setWeather]=useState(null);
   const [unit,setUnits]=useState("metric");
-  const [city,setCity]=useState("Rourkela")
+  const [city,setCity]=useState("Delhi")
   useEffect(()=>{
     const fetch=async()=>
     {

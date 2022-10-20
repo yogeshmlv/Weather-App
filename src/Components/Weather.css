@@ -10,11 +10,11 @@
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
-   background-color:rgba(128, 128, 128, 0.521);
+   background-color:rgba(35, 12, 248, 0.521);
    padding: 1rem;
    border-radius: 0.4rem;
    width: 100%;
-   color: black;
+   color: rgb(239, 233, 233);
 }
 .description__card-icon
 {

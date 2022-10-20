@@ -4,6 +4,7 @@ const makeIconUrl=(iconId)=>`https://openweathermap.org/img/wn/${iconId}@2x.png`
 
 const getFormatData=async(city,units='metric')=>{
     const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=${units}`;
+   // http://api.weatherstack.com/current?access_key=a07764b60f64fe9d5ccc269e8c6e3af7&query=New%20York
     const data=await fetch(url)
     .then((res)=>res.json())
     .then((data)=>data);
